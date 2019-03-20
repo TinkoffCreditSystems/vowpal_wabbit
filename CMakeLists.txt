@@ -118,6 +118,7 @@ find_package(ZLIB REQUIRED)
 add_subdirectory(cluster)
 add_subdirectory(library)
 add_subdirectory(vowpalwabbit)
+add_subdirectory(utl/ccb_simulator)
 
 if(BUILD_DOCS)
   add_subdirectory(doc)
